@@ -5,6 +5,8 @@ class Body extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+
     return Container(
 
         child: Column(
@@ -33,8 +35,8 @@ class Body extends StatelessWidget {
                         Text("서울시 구로구"),
                         Row(children: [
                           Text("비숑"),
-                          Icon(Icons.heart_broken_outlined),
-                          Text("4"),
+                          Icon(Icons.favorite),
+                          Text("♥"),
                         ],)
                       ],
                     ),

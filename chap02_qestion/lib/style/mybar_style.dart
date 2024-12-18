@@ -26,12 +26,7 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Colors.blue,
       ),
 
-      body:Column(
-        children: [ for(int i = 0; i < 3 ;i++)
-                      Body(),Body()],
-
-      ),
-
+      body:Column(children: [ for(int i = 0; i < 2 ;i++)Body(),],),
 
       bottomNavigationBar: BottomAppBar(
         child: Center(
